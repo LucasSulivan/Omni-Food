@@ -55,6 +55,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -62,6 +63,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #333;
+  overflow-x: hidden;
 }
 
 /****************************/
@@ -304,6 +306,7 @@ body {
   display: flex;
   align-items: conter;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
@@ -504,7 +507,7 @@ body {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
   background-image: linear-gradient(to right bottom,
-      #eb984e, #e67e22);
+  #eb984e, #e67e22);
   overflow: hidden;
 }
 
