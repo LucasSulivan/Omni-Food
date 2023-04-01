@@ -1,7 +1,10 @@
 /*************************/
 /*---------HEADER--------*/
 /*************************/
-
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230,125,34,0.5);
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -78,7 +81,7 @@
 /*------- BUTTON-------*/
 /*************************/
 
-
+.btn,
 .btn:link,
 .btn:visited {
   font-weight: 600;
@@ -89,6 +92,25 @@
   border-radius: 9px;
   transition: all 0.5s;
 
+  /*Only necessary for .btn*/
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self:end;
+  padding: 1.2rem;
+  
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+  transition: all 1s;
+  transform: translateY(-0.3rem);
 }
 
 .btn--full:link,
